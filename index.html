@@ -6,10 +6,13 @@
     <title>Mamohapi | Professional Portfolio</title>
     <link rel="stylesheet" href="style.css" />
   <body>
-    <header class="header" id="header">
-        <nav class="nav-container">
-            <div class="nav-menu" id="nav-menu">
-                <ul class="nav-list-grid">
+    <header class="header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Marlon</a>
+                </div>
+
+                <ul class="nav_list">
                     <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
@@ -27,14 +30,14 @@
 
     <main class="1-main">
       <section class="home bd-grid" id="home">
-        <div class="home-data">
-          <h1 class="home-title">Hi,<br>I am <span class="home-title-color">Mamohapi</span><br>Accounting Graduate | Tutor | Freelancer | Coding Student</h1>
+        <div class="home__data">
+          <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Mamohapi</span><br>Accounting Graduate | Tutor | Freelancer | Coding Student</h1>
 
           <a href="#" class="button">Contact</a>
         </div>
 
-        <div class="home-social">
-          <a href="" class="home-social-icon"><i class='bx bxl-linkedin'></i></a>
+        <div class="home__social">
+          <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
           <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
           <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
         </div>
@@ -158,10 +161,10 @@
 
           <div class="contact__container bd-grid">
               <form action="" class="contact__form">
-                    <input type="text" placeholder="Name" class="contact__input">
-                    <input type="mail" placeholder="Email" class="contact__input">
-                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                    <input type="button" value="Enviar" class="contact__button button">
+                <input type="text" placeholder="Name" class="contact__input">
+                <input type="mail" placeholder="Email" class="contact__input">
+                <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                <input type="button" value="Send" class="contact__button button">
               </form>
           </div>
       </section>
